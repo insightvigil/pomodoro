@@ -1,4 +1,4 @@
-//Comment Added
+//Functionality added
 const bells = new Audio('./sounds/bell.wav'); //Crea un objeto de audio
 const startBtn = document.querySelector('.btn-start');  //Seleccina el botón de inicio
 const resetBtn = document.querySelector('.btn-reset')

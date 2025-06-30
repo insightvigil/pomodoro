@@ -112,8 +112,15 @@ p {
   pointer-events:all;
 }
 
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
 button {
-  font-size: 50%;
+  font-size: 2.2rem;
+  padding: 0.5rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   border: none;

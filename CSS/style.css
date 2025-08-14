@@ -157,10 +157,12 @@ button {
   outline: none;
   color: #d8e9ef;
   cursor: pointer;
+  transition: scale 0.3s ease,;
 }
 
 button:hover {
-  color: #90c0d1;
+  scale: 1.1;
+  color: whitesmoke;
 }
 
 /* Footer */

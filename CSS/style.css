@@ -73,8 +73,6 @@ main .app-message {
   font-size: 1.9rem;
 }
 
-
-
 .app-circle {
   display: flex;
   align-items: center;
@@ -165,12 +163,17 @@ button:hover {
   color: #90c0d1;
 }
 
-
-
-
-
 /* Footer */
 .app-card footer {
   height: 5%;
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+@media screen and (min-width:375px) and (max-width:767px) and (orientation: portrait) {
+
+  .app-card {
+    width: 90%;
+    height: 75%;
+  }
 }

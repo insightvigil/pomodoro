@@ -167,7 +167,20 @@ button:hover {
 .app-card footer {
   height: 5%;
   background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+footer small {
+  opacity: 0;
+  transition: opacity 0.3s ease ;
+}
+
+footer small:hover {
+  opacity: 1;
+}
+
 
 
 @media screen and (min-width:375px) and (max-width:767px) and (orientation: portrait) {
